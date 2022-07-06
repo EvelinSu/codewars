@@ -9,4 +9,5 @@ function expandedForm(num) {
     }
     return result.join(' + ');
 }
+
 console.log(expandedForm(70304)); // '70000 + 300 + 4'
