@@ -7,4 +7,4 @@ const likes = (names) => {
         default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
     }
 };
-console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']));
+console.log(likes(['Alex', 'Jacob', 'Mark', 'Max'])); // Alex, Jacob and 2 others like this
