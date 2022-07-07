@@ -1,8 +1,5 @@
 var countBits = function (n) {
-    return n
-        .toString(2)
-        .split('')
-        .reduce((a, b) => parseInt(a) + parseInt(b), 0);
+    return n.toString(2).split('').reduce((a, b) => parseInt(a) + parseInt(b), 0);
 };
 
 console.log(countBits(10)); // 2
