@@ -9,4 +9,4 @@ function wave(str) {
         return (accumulator = accumulator.concat(collection.join('')));
     }, []);
 }
-console.log(wave('Two words'));
+console.log(wave('Two words')); // [Two words, tWo words, twO words, two Words, two wOrds, two woRds, two worDs, two wordS], 

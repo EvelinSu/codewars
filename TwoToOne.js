@@ -5,4 +5,4 @@ function longest(s1, s2) {
     return result.sort().join('');
 }
 
-console.log(longest('loopingisfunbutdangerous', 'lessdangerousthancoding')); // abcdefghilnoprstu
+console.log(longest('loopingisfunbutdangerous', 'lessdangerousthancoding')); // abcdefghilnoprstu 
