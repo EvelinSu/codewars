@@ -6,4 +6,4 @@ function spinWords(string) {
     return result.join(' ');
 }
 
-console.log(spinWords('Hey fellow warriors')); // Hey wollef sroirraw
+console.log(spinWords('Hey fellow warriors')); // Hey wollef sroirraw 
