@@ -1,5 +1,5 @@
-recipe = { flour: 500, sugar: 200, eggs: 1 };
-available = { flour: 1500, sugar: 1200, eggs: 3, milk: 200 };
+let recipe = { flour: 500, sugar: 200, eggs: 1 };
+let available = { flour: 1500, sugar: 1200, eggs: 3, milk: 200 };
 
 function cakes(recipe, available) {
     let result = [];
@@ -11,4 +11,4 @@ function cakes(recipe, available) {
     }
     return Math.floor(Math.min.apply(null, result));
 }
-console.log(cakes(recipe, available)); // 3
+console.log(cakes(recipe, available)); // 3;
