@@ -11,4 +11,4 @@ function cakes(recipe, available) {
     }
     return Math.floor(Math.min.apply(null, result));
 }
-console.log(cakes(recipe, available)) // 3
+console.log(cakes(recipe, available)); // 3
