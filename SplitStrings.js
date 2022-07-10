@@ -12,4 +12,4 @@ function solution(str) {
     return result;
 }
 
-console.log(solution('abcdefg')); // ['ab', 'cd', 'ef', 'g_']
+console.log(solution('abcdefg')); // ['ab', 'cd', 'ef', 'g_'];
