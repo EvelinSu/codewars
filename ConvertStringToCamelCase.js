@@ -3,4 +3,4 @@ function toCamelCase(str) {
     return str.replace(/[-_]./g, foo);
 }
 
-console.log(toCamelCase('The-stealth_warrior')); // TheStealthWarrior 
+console.log(toCamelCase('The-stealth_warrior')); // TheStealthWarrior
