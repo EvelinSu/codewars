@@ -10,4 +10,4 @@ function duplicateCount(text) {
     return result;
 }
 
-console.log(duplicateCount('Indivisibilities')); // 2
+console.log(duplicateCount('Indivisibilities')); // 2 
