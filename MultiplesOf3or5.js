@@ -6,4 +6,4 @@ function solution(number) {
     return number > 0 ? result.reduce((a, b) => (a = a + b)) : 0;
 }
 
-console.log(solution(10)) // 23
+console.log(solution(10)); // 23
