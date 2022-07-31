@@ -3,4 +3,4 @@ function sortMyString(s) {
     return filter((el, i) => i % 2 === 0) + ' ' + filter((el, i) => i % 2 !== 0);
 }
 
-console.log(sortMyString('CodeWars')); // "CdWr oeas"
+console.log(sortMyString('CodeWars')) // "CdWr oeas"
